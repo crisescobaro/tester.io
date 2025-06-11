@@ -1,0 +1,162 @@
+[
+    {
+        "nombreBD": "inventario",
+        "tablas/colecciones": [
+            {
+                "nombre": "niveles",
+                "campos/atributos": [
+                    {
+                        "codigo": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "N-1"
+                        },
+                        "nombre": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "admin"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "estatus",
+                "campos/atributos": [
+                    {
+                        "codigo": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "E-1"
+                        },
+                        "nombre": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "activo"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "usuarios",
+                "campos/atributos": [
+                    {
+                        "codigo": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "U-1"
+                        },
+                        "fechaCreado": {
+                            "tipo": "Date",
+                            "requerido": "si",
+                            "ejemplo": "dia/mes/año"
+                        },
+                        "fechaVence": {
+                            "tipo": "Date",
+                            "requerido": "si",
+                            "ejemplo": "dia/mes/año"
+                        },
+                        "nombre": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "juanito"
+                        },
+                        "apellido": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "puerta"
+                        },
+                        "correo": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "juanito@algo.com"
+                        },
+                        "usuario": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "juanitox25"
+                        },
+                        "clave": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "xxxxxxxxx"
+                        },
+                        "codigoNivel": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "N-1"
+                        },
+                        "codigoEstatus": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "E-1"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "categorias",
+                "campos/atributos": [
+                    {
+                        "codigo": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "C-1"
+                        },
+                        "nombre": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "zapatos"
+                        }
+                    }
+                ]
+            },
+            {
+                "nombre": "productos",
+                "campos/atributos": [
+                    {
+                        "codigo": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "P-1"
+                        },
+                        "codigoUsuario": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "U-1"
+                        },
+                        "fechaCreado": {
+                            "tipo": "Date",
+                            "requerido": "si",
+                            "ejemplo": "dia/mes/año"
+                        },
+                        "nombre": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "zapato-nike"
+                        },
+                        "descripcion": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "zapatos de marca nike color verde para dama"
+                        },
+                        "precio": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "200$"
+                        },
+                        "foto": {
+                            "tipo": "String",
+                            "requerido": "si",
+                            "ejemplo": "./carpeta/imagen.jpg"
+                        },
+                        "codigoCategorias": {
+                            "tipo": "Array",
+                            "requerido": "si",
+                            "ejemplo": "C-1, C-2, C-3"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

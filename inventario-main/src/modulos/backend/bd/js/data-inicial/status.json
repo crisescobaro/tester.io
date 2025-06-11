@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "63ce6e10c913c47951405bfc",
+        "codigo": "E-01",
+        "nombre": "activo",
+        "__v": 0
+    },
+    {
+        "_id": "63ce6e24c913c47951405bff",
+        "codigo": "E-02",
+        "nombre": "inactivo",
+        "__v": 0
+    },
+    {
+        "_id": "63ce6e3ec913c47951405c01",
+        "codigo": "E-03",
+        "nombre": "bloqueado",
+        "__v": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "63ce720a4b83c02531e20c7a",
+        "codigo": "N-01",
+        "nombre": "admin",
+        "__v": 0
+    },
+    {
+        "_id": "63ce722a4b83c02531e20c7d",
+        "codigo": "N-02",
+        "nombre": "operador",
+        "__v": 0
+    },
+    {
+        "_id": "63ce723d4b83c02531e20c7f",
+        "codigo": "N-03",
+        "nombre": "estandar",
+        "__v": 0
+    }
+]
